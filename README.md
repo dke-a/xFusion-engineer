@@ -1,20 +1,14 @@
 README
 ======
 
-Introduction to Kodekloud Engineer
+**KodeKloud Engineer** is a development program where real tasks are performed on real systems as part of a fictional company called xFusion Corp.
 
-## xFusionCorp
+Tasks that are performed provide skills experience for roles such as Systems Administrator, DevOps Engineer and Architect.
 
-Multi-national industrial company who is a pioneer in defense and strategic warfare.
+![Roles and Responsibilities](images/20230718230127.png)
 
-### Three projects
+---
 
-Nautilus
-
-Firestorm
-
-Crusader
-
-Always refer to documentation and architecture diagrams.
-
-![](images/20230718230127.png)
+| Task # | Title                                               | Description                                                       | Tags                        |
+|:------:|-----------------------------------------------------|-------------------------------------------------------------------|-----------------------------|
+|    1   | [Linux File Permissions](linux-file-permissions.md) | SSH into App Serever to change file permissions to be executable. | Linux SSH File Permissions  |
