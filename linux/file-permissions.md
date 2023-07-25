@@ -1,4 +1,4 @@
-# Linux File Permissions
+# File Permissions
 
 ## July 20, 2023
 

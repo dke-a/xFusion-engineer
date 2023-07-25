@@ -24,5 +24,5 @@ Tasks that are performed provide skills experience for roles such as Systems Adm
 
 | Task # | Title                                               | Description                                                       | Tags                        |
 |:------:|-----------------------------------------------------|-------------------------------------------------------------------|-----------------------------|
-|    1   | [Linux File Permissions](linux-file-permissions.md) | SSH into App Serever to change file permissions to be executable. | Linux SSH File Permissions  |
+|    1   | [Linux File Permissions](linux/linux-file-permissions.md) | SSH into App Serever to change file permissions to be executable. | Linux SSH File Permissions  |
 
