@@ -16,5 +16,4 @@ Therefore, create a user named `kareem` on the `App Server 1` in `Stratos D
 
 3. Verify user expiry
    `sudo chage -l kareem`
-
-![](images/20230809213835.png)
+   ![](images/20230809213835.png)
