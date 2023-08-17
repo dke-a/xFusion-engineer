@@ -12,4 +12,8 @@ Disable direct SSH root login on all app servers in `Stratos Datacenter`.
 3. Restart ssh service
    `sudo systemctl restart sshd`
 
-   
+Do for all servers.
+
+---
+
+
