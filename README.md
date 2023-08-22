@@ -21,11 +21,27 @@ Tasks that are performed provide skills experience for roles such as Systems Adm
 <!-- ![Roles and Responsibilities](images/20230718230127.png) -->
 
 ---
+## LINUX LEVEL 1
 
-| Task # 	|                                        Title                                        	|                            Description                           	|            Tags            	|
-|:------:	|:-----------------------------------------------------------------------------------:	|:----------------------------------------------------------------:	|:--------------------------:	|
-| 1      	| [Linux File Permissions](linux/file-permissions.md)                                 	| SSH into App Server to change file permissions to be executable. 	| Linux SSH File Permissions 	|
-| 2      	| [Create a User](linux/user-create.md)                                               	| Create user in App Server and adjust user group.                 	| Linux SSH Users & Groups   	|
-| 3      	| [Create a Group](linux/group-create.md)                                             	| Create group in all App servers. Add user to group.              	| Linux SSH Users & Groups   	|
-| 4      	| [Create a Linux User with Non-interactive Shell](linux/non-interactice-terminal.md) 	| Create user in App Server 1.                                     	| Linux SSH Users & Groups   	|
-| 5      	| [Linux User Without Home](linux/user-wo-home.md)                                    	| Create user without a home directory.                            	| Linux SSH Users & Groups   	|
+| **Task** | **Title**                                                                           | **Accomplishment**                                                        | **Tags**                        |
+|----------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------|
+| 1        | [Linux File Permissions](linux/file-permissions.md)                                 | SSH into App Server to change file permissions to be executable.          | `File Operations` `Linux` `SSH` |
+| 2        | [Create a User](linux/user-create.md)                                               | Create user in App Server and adjust user group.                          | `Linux` `SSH` `Users & Groups`  |
+| 3        | [Create a Group](linux/group-create.md)                                             | Create group in all App servers. Add user to group.                       | `Linux` `SSH` `Users & Groups`  |
+| 4        | [Create a Linux User with Non-interactive Shell](linux/non-interactice-terminal.md) | Create user in App Server 1.                                              | `Linux` `SSH` `Users & Groups`  |
+| 5        | [Linux User Without Home](linux/user-wo-home.md)                                    | Create user without a home directory.                                     | `Linux` `SSH` `Users & Groups`  |
+| 6        | [Linux User Expiry](linux/user-expiry.md)                                           | Create user with expiry                                                   | `Linux` `SSH` `Users & Groups`  |
+| 7        | [Linux User Files](linux/user-files.md)                                             | Copy user files into another directory while keeping directory structure. | `Linux` `SSH` `Users & Groups`  |
+| 8        | [Disable Root Login](linux/disable-root-login.md)                                   | Disable root login on all app servers                                     | `Linux` `SSH`                   |
+| 9        | [Linux Archives](linux/archive.md)                                                  | Archive user data in storage folder                                       | `File Operations` `Linux` `SSH` |
+
+
+## GIT LEVEL 1
+
+| **Task #** | **Title**                                                  | **Accomplishment**                                                                                 | **Tags**           |
+|------------|------------------------------------------------------------|----------------------------------------------------------------------------------------------------|--------------------|
+| 1          | [Install and Create Bare Repository](git/level-1/setup.md) | Create bar Git repo in Storage Server                                                              | `Git` `Initialize` |
+| 2          | [Clone Repositories](git/level-1/clone-repo.md)            | Clone Git repo in Storage Server                                                                   | `Clone` `Git`      |
+| 3          | [Fork a Repo](git/level-1/fork-repo.md)                    | Fork Repo in Gitea                                                                                 | `Fork` `Git`       |
+| 4          | [Repo Update](git/level-1/repo-update.md)                  | Copy file from jump server to storage server. Add, commit, and push updated repo in storage server | `Git`              |
+| 5          | [Delete Branch](git/level-1/delete-branch.md)              | Delete branch in storage server                                                                    | `Branch` `Git`     |
