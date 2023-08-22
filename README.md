@@ -23,17 +23,25 @@ Tasks that are performed provide skills experience for roles such as Systems Adm
 ---
 ## LINUX LEVEL 1
 
-| **Task** | **Title**                                                                           | **Accomplishment**                                                        | **Tags**                        |
-|----------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------|
-| 1        | [Linux File Permissions](linux/file-permissions.md)                                 | SSH into App Server to change file permissions to be executable.          | `File Operations` `Linux` `SSH` |
-| 2        | [Create a User](linux/user-create.md)                                               | Create user in App Server and adjust user group.                          | `Linux` `SSH` `Users & Groups`  |
-| 3        | [Create a Group](linux/group-create.md)                                             | Create group in all App servers. Add user to group.                       | `Linux` `SSH` `Users & Groups`  |
-| 4        | [Create a Linux User with Non-interactive Shell](linux/non-interactice-terminal.md) | Create user in App Server 1.                                              | `Linux` `SSH` `Users & Groups`  |
-| 5        | [Linux User Without Home](linux/user-wo-home.md)                                    | Create user without a home directory.                                     | `Linux` `SSH` `Users & Groups`  |
-| 6        | [Linux User Expiry](linux/user-expiry.md)                                           | Create user with expiry                                                   | `Linux` `SSH` `Users & Groups`  |
-| 7        | [Linux User Files](linux/user-files.md)                                             | Copy user files into another directory while keeping directory structure. | `Linux` `SSH` `Users & Groups`  |
-| 8        | [Disable Root Login](linux/disable-root-login.md)                                   | Disable root login on all app servers                                     | `Linux` `SSH`                   |
-| 9        | [Linux Archives](linux/archive.md)                                                  | Archive user data in storage folder                                       | `File Operations` `Linux` `SSH` |
+| **Task Number** | **Title**                                                                           | **Accomplishment**                                                        | **Tags**                                   |
+|-----------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------|--------------------------------------------|
+| 1               | [Linux File Permissions](linux/file-permissions.md)                                 | SSH into App Server to change file permissions to be executable.          | `File Operations` `Linux` `SSH`            |
+| 2               | [Create a User](linux/user-create.md)                                               | Create user in App Server and adjust user group.                          | `Linux` `SSH` `Users & Groups`             |
+| 3               | [Create a Group](linux/group-create.md)                                             | Create group in all App servers. Add user to group.                       | `Linux` `SSH` `Users & Groups`             |
+| 4               | [Create a Linux User with Non-interactive Shell](linux/non-interactice-terminal.md) | Create user in App Server 1.                                              | `Linux` `SSH` `Users & Groups`             |
+| 5               | [Linux User Without Home](linux/user-wo-home.md)                                    | Create user without a home directory.                                     | `Linux` `SSH` `Users & Groups`             |
+| 6               | [Linux User Expiry](linux/user-expiry.md)                                           | Create user with expiry                                                   | `Linux` `SSH` `Users & Groups`             |
+| 7               | [Linux User Files](linux/user-files.md)                                             | Copy user files into another directory while keeping directory structure. | `Linux` `SSH` `Users & Groups`             |
+| 8               | [Disable Root Login](linux/disable-root-login.md)                                   | Disable root login on all app servers                                     | `Linux` `SSH`                              |
+| 9               | [Linux Archives](linux/archive.md)                                                  | Archive user data in storage folder                                       | `File Operations` `Linux` `SSH`            |
+| 10              | [Access Control Lists](linux/access-control-list.md)                                | Modify file permissions and ACL.                                          | `File Operations` `Linux` `Users & Groups` |
+| 11              | [String Substitute](linux/string-substitute)                                        | Substitute strings in an XML file.                                        | `File Operations` `Linux`                  |
+| 12              | [Cron Schedule to Deny Users](linux/cron-schedule-deny.md)                          | Update CRON settings to deny and allow users.                             | `CRON` `Linux`                             |
+| 13              | [Run Levels](linux/run-levels.md)                                                   | Change default run level of all app servers to GUI.                       | `Linux` `Run Levels`                       |
+| 14              | [NTP Setup](linux/NTP.md)                                                           | Setup NTP and modify config to sync time with other servers.              | `Linux` `NTP`                              |
+| 15              | [Firewalld Rules](linux/firewalld-rules.md)                                         | Open connection on public zone TCP port 8083.                             | `Firewalld` `Linux`                        |
+| 16              | [Resource Limits](linux/resource-limits.md)                                         | Add soft and hard limit for running user processes on server.             | `Linux` `User Processes`                   |
+
 
 
 ## GIT LEVEL 1
